@@ -88,6 +88,152 @@ const Index = () => {
           </div>
         )}
 
+        {/* Benefits Table */}
+        {activeTab === 'dashboard' && (
+          <div className="mb-12 animate-slide-up">
+            <h3 className="text-2xl font-heading font-bold text-center text-gray-900 mb-8">
+              Главные преимущества сервиса
+            </h3>
+            <Card className="overflow-hidden">
+              <CardContent className="p-0">
+                <div className="overflow-x-auto">
+                  <table className="w-full">
+                    <thead className="bg-gradient-to-r from-primary/10 to-accent/10">
+                      <tr>
+                        <th className="px-6 py-4 text-left text-sm font-semibold text-gray-900">Преимущество</th>
+                        <th className="px-6 py-4 text-left text-sm font-semibold text-gray-900">Описание</th>
+                        <th className="px-6 py-4 text-center text-sm font-semibold text-gray-900">Экономия времени</th>
+                        <th className="px-6 py-4 text-center text-sm font-semibold text-gray-900">Статус</th>
+                      </tr>
+                    </thead>
+                    <tbody className="divide-y divide-gray-200">
+                      <tr className="hover:bg-gray-50 transition-colors">
+                        <td className="px-6 py-4">
+                          <div className="flex items-center gap-3">
+                            <div className="w-8 h-8 bg-success/10 rounded-lg flex items-center justify-center">
+                              <Icon name="Zap" size={16} className="text-success" />
+                            </div>
+                            <span className="font-medium">Автоматические платежи</span>
+                          </div>
+                        </td>
+                        <td className="px-6 py-4 text-gray-600">
+                          Настройте один раз — получайте деньги ежемесячно без напоминаний
+                        </td>
+                        <td className="px-6 py-4 text-center">
+                          <Badge variant="default" className="bg-success text-white">95% времени</Badge>
+                        </td>
+                        <td className="px-6 py-4 text-center">
+                          <Badge className="bg-success text-white">Активно</Badge>
+                        </td>
+                      </tr>
+                      
+                      <tr className="hover:bg-gray-50 transition-colors">
+                        <td className="px-6 py-4">
+                          <div className="flex items-center gap-3">
+                            <div className="w-8 h-8 bg-primary/10 rounded-lg flex items-center justify-center">
+                              <Icon name="FileCheck" size={16} className="text-primary" />
+                            </div>
+                            <span className="font-medium">Цифровые договоры</span>
+                          </div>
+                        </td>
+                        <td className="px-6 py-4 text-gray-600">
+                          Создавайте, подписывайте и управляйте договорами онлайн
+                        </td>
+                        <td className="px-6 py-4 text-center">
+                          <Badge variant="default" className="bg-primary text-white">80% времени</Badge>
+                        </td>
+                        <td className="px-6 py-4 text-center">
+                          <Badge className="bg-success text-white">Активно</Badge>
+                        </td>
+                      </tr>
+                      
+                      <tr className="hover:bg-gray-50 transition-colors">
+                        <td className="px-6 py-4">
+                          <div className="flex items-center gap-3">
+                            <div className="w-8 h-8 bg-warning/10 rounded-lg flex items-center justify-center">
+                              <Icon name="Bell" size={16} className="text-warning" />
+                            </div>
+                            <span className="font-medium">Умные уведомления</span>
+                          </div>
+                        </td>
+                        <td className="px-6 py-4 text-gray-600">
+                          Автоматические напоминания арендаторам о платежах
+                        </td>
+                        <td className="px-6 py-4 text-center">
+                          <Badge variant="default" className="bg-warning text-white">70% времени</Badge>
+                        </td>
+                        <td className="px-6 py-4 text-center">
+                          <Badge className="bg-success text-white">Активно</Badge>
+                        </td>
+                      </tr>
+                      
+                      <tr className="hover:bg-gray-50 transition-colors">
+                        <td className="px-6 py-4">
+                          <div className="flex items-center gap-3">
+                            <div className="w-8 h-8 bg-accent/10 rounded-lg flex items-center justify-center">
+                              <Icon name="BarChart3" size={16} className="text-accent" />
+                            </div>
+                            <span className="font-medium">Аналитика доходов</span>
+                          </div>
+                        </td>
+                        <td className="px-6 py-4 text-gray-600">
+                          Отслеживайте прибыль, расходы и рентабельность объектов
+                        </td>
+                        <td className="px-6 py-4 text-center">
+                          <Badge variant="default" className="bg-accent text-white">60% времени</Badge>
+                        </td>
+                        <td className="px-6 py-4 text-center">
+                          <Badge className="bg-success text-white">Активно</Badge>
+                        </td>
+                      </tr>
+                      
+                      <tr className="hover:bg-gray-50 transition-colors">
+                        <td className="px-6 py-4">
+                          <div className="flex items-center gap-3">
+                            <div className="w-8 h-8 bg-destructive/10 rounded-lg flex items-center justify-center">
+                              <Icon name="Shield" size={16} className="text-destructive" />
+                            </div>
+                            <span className="font-medium">Защита платежей</span>
+                          </div>
+                        </td>
+                        <td className="px-6 py-4 text-gray-600">
+                          Банковская безопасность и страхование всех транзакций
+                        </td>
+                        <td className="px-6 py-4 text-center">
+                          <Badge variant="default" className="bg-destructive text-white">100% защита</Badge>
+                        </td>
+                        <td className="px-6 py-4 text-center">
+                          <Badge className="bg-success text-white">Активно</Badge>
+                        </td>
+                      </tr>
+                      
+                      <tr className="hover:bg-gray-50 transition-colors">
+                        <td className="px-6 py-4">
+                          <div className="flex items-center gap-3">
+                            <div className="w-8 h-8 bg-blue-500/10 rounded-lg flex items-center justify-center">
+                              <Icon name="Smartphone" size={16} className="text-blue-500" />
+                            </div>
+                            <span className="font-medium">Мобильное приложение</span>
+                          </div>
+                        </td>
+                        <td className="px-6 py-4 text-gray-600">
+                          Управляйте арендой в любое время с телефона или планшета
+                        </td>
+                        <td className="px-6 py-4 text-center">
+                          <Badge variant="default" className="bg-blue-500 text-white">24/7 доступ</Badge>
+                        </td>
+                        <td className="px-6 py-4 text-center">
+                          <Badge className="bg-success text-white">Активно</Badge>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+        )}
+
         {/* Dashboard Stats */}
         {activeTab === 'dashboard' && (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8 animate-slide-up">
