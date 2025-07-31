@@ -149,12 +149,10 @@ const Index = () => {
                             <div className="w-8 h-8 bg-warning/10 rounded-lg flex items-center justify-center">
                               <Icon name="Bell" size={16} className="text-warning" />
                             </div>
-                            <span className="font-medium">Умные уведомления</span>
+                            <span className="font-medium">Полная компенсация ущерба</span>
                           </div>
                         </td>
-                        <td className="px-6 py-4 text-gray-600">
-                          Автоматические напоминания арендаторам о платежах
-                        </td>
+                        <td className="px-6 py-4 text-gray-600">Гарантированное возмещение всех потерь при досрочном выезде, расторжении договора или повреждении имущества не по вине арендодателя</td>
                         <td className="px-6 py-4 text-center">
                           <Badge variant="default" className="bg-warning text-white">70% времени</Badge>
                         </td>
