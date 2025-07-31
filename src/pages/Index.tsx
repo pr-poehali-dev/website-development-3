@@ -113,12 +113,10 @@ const Index = () => {
                             <div className="w-8 h-8 bg-success/10 rounded-lg flex items-center justify-center">
                               <Icon name="Zap" size={16} className="text-success" />
                             </div>
-                            <span className="font-medium">Автоматические платежи</span>
+                            <span className="font-medium">Безупречная пунктуальность</span>
                           </div>
                         </td>
-                        <td className="px-6 py-4 text-gray-600">
-                          Настройте один раз — получайте деньги ежемесячно без напоминаний
-                        </td>
+                        <td className="px-6 py-4 text-gray-600">Оплата поступает строго по графику</td>
                         <td className="px-6 py-4 text-center">
                           <Badge variant="default" className="bg-success text-white">95% времени</Badge>
                         </td>
@@ -133,12 +131,10 @@ const Index = () => {
                             <div className="w-8 h-8 bg-primary/10 rounded-lg flex items-center justify-center">
                               <Icon name="FileCheck" size={16} className="text-primary" />
                             </div>
-                            <span className="font-medium">Цифровые договоры</span>
+                            <span className="font-medium">Финансовая защита </span>
                           </div>
                         </td>
-                        <td className="px-6 py-4 text-gray-600">
-                          Создавайте, подписывайте и управляйте договорами онлайн
-                        </td>
+                        <td className="px-6 py-4 text-gray-600">Обеспечение регулярных выплат независимо от просрочек квартирантов</td>
                         <td className="px-6 py-4 text-center">
                           <Badge variant="default" className="bg-primary text-white">80% времени</Badge>
                         </td>
