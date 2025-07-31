@@ -71,9 +71,7 @@ const Index = () => {
         {/* Hero Section */}
         {activeTab === 'dashboard' && (
           <div className="text-center mb-12 animate-fade-in">
-            <h2 className="text-4xl font-heading font-bold text-gray-900 mb-4">
-              Управление арендными платежами
-            </h2>
+            <h2 className="font-heading mb-4 text-3xl text-gray-800 font-semibold">Профессиональный сервис для арендаторов и арендодателей</h2>
             <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
               Автоматизируйте процесс сбора арендной платы с помощью современной платформы
             </p>
