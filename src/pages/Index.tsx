@@ -167,12 +167,10 @@ const Index = () => {
                             <div className="w-8 h-8 bg-accent/10 rounded-lg flex items-center justify-center">
                               <Icon name="BarChart3" size={16} className="text-accent" />
                             </div>
-                            <span className="font-medium">Аналитика доходов</span>
+                            <span className="font-medium">Свободный график платежей</span>
                           </div>
                         </td>
-                        <td className="px-6 py-4 text-gray-600">
-                          Отслеживайте прибыль, расходы и рентабельность объектов
-                        </td>
+                        <td className="px-6 py-4 text-gray-600">Квартирант вправе вносить оплату в удобное для себя число месяца</td>
                         <td className="px-6 py-4 text-center">
                           <Badge variant="default" className="bg-accent text-white">60% времени</Badge>
                         </td>
