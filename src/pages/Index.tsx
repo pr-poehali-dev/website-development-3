@@ -185,12 +185,10 @@ const Index = () => {
                             <div className="w-8 h-8 bg-destructive/10 rounded-lg flex items-center justify-center">
                               <Icon name="Shield" size={16} className="text-destructive" />
                             </div>
-                            <span className="font-medium">Защита платежей</span>
+                            <span className="font-medium">Льготный срок оплаты</span>
                           </div>
                         </td>
-                        <td className="px-6 py-4 text-gray-600">
-                          Банковская безопасность и страхование всех транзакций
-                        </td>
+                        <td className="px-6 py-4 text-gray-600">Квартиранту выделяется определённое время на внесение просроченного платежа</td>
                         <td className="px-6 py-4 text-center">
                           <Badge variant="default" className="bg-destructive text-white">100% защита</Badge>
                         </td>
